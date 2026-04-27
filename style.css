@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .map-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  svg {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* 都道府県 */
+  .prefecture {
+    fill: #cce5ff;
+    stroke: #333;
+    cursor: pointer;
+  }
+  
+  .prefecture:hover {
+    fill: #ffcc00;
+  }
+  
+  /* 表示する画像 */
+  #pref-image img {
+    width: 300px;
+    margin-top: 20px;
+  }
+  
